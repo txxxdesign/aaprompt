@@ -1,0 +1,107 @@
+[
+  {
+    "id": "15",
+    "title": "Instagram Caption Writer",
+    "description": "Generate catchy captions for any Instagram post.",
+    "tag": "Writing",
+    "likes": 3400
+  },
+  {
+    "id": "14",
+    "title": "Resume Bullet Optimizer",
+    "description": "Improve resume bullet points using action verbs.",
+    "tag": "Writing",
+    "likes": 2123
+  },
+  {
+    "id": "13",
+    "title": "Figma Plugin Idea Generator",
+    "description": "Get new plugin ideas for Figma users and designers.",
+    "tag": "Design",
+    "likes": 4510
+  },
+  {
+    "id": "12",
+    "title": "Chatbot Flow Builder",
+    "description": "Design interactive chatbot flows for customer support.",
+    "tag": "Dev",
+    "likes": 12800
+  },
+  {
+    "id": "11",
+    "title": "Startup Tagline Maker",
+    "description": "Generate catchy taglines for your next startup.",
+    "tag": "Writing",
+    "likes": 7421
+  },
+  {
+    "id": "10",
+    "title": "Blog Outline Creator",
+    "description": "Get structured outlines for informative blog posts.",
+    "tag": "Writing",
+    "likes": 6201
+  },
+  {
+    "id": "9",
+    "title": "UI Copy Enhancer",
+    "description": "Improve button, label, and tooltip microcopy.",
+    "tag": "Design",
+    "likes": 3910
+  },
+  {
+    "id": "8",
+    "title": "Landing Page Critique",
+    "description": "Analyze and give feedback on your landing page.",
+    "tag": "Design",
+    "likes": 5350
+  },
+  {
+    "id": "7",
+    "title": "Product Name Brainstorm",
+    "description": "Find unique and brandable product names.",
+    "tag": "Writing",
+    "likes": 8052
+  },
+  {
+    "id": "6",
+    "title": "Prompt Creator Assistant",
+    "description": "Build and refine prompts for ChatGPT or Claude.",
+    "tag": "Dev",
+    "likes": 9300
+  },
+  {
+    "id": "5",
+    "title": "SEO Meta Description Generator",
+    "description": "Generate engaging meta descriptions for blog posts.",
+    "tag": "Writing",
+    "likes": 10440
+  },
+  {
+    "id": "4",
+    "title": "Amazon Product Search",
+    "description": "Search Amazon with structured natural language queries.",
+    "tag": "Dev",
+    "likes": 14466
+  },
+  {
+    "id": "3",
+    "title": "Bright Data Scraper",
+    "description": "Extract structured data from e-commerce or travel sites.",
+    "tag": "Dev",
+    "likes": 6533
+  },
+  {
+    "id": "2",
+    "title": "GitHub Code Agent",
+    "description": "Let GPT search repos and return API usage examples.",
+    "tag": "Dev",
+    "likes": 35827
+  },
+  {
+    "id": "1",
+    "title": "Weekly Content Planner",
+    "description": "Plan your weekly content strategy in minutes.",
+    "tag": "Writing",
+    "likes": 4888
+  }
+]
