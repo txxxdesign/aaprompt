@@ -1,13 +1,12 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-
 type PromptCardProps = {
   id: string;
   title: string;
   description: string;
   tag: string;
   likes: number;
+  liked: boolean;
   onLike: (id: string, isLiked: boolean) => void;
 };
 
@@ -17,20 +16,11 @@ export default function PromptCard({
   description,
   tag,
   likes,
+  liked,
   onLike,
 }: PromptCardProps) {
-  const [liked, setLiked] = useState(false);
-
-  useEffect(() => {
-    const stored = localStorage.getItem(`liked-${id}`);
-    if (stored === 'true') {
-      setLiked(true);
-    }
-  }, [id]);
-
   const handleLikeClick = () => {
     const newLiked = !liked;
-    setLiked(newLiked);
     localStorage.setItem(`liked-${id}`, String(newLiked));
     onLike(id, newLiked);
   };
@@ -46,7 +36,7 @@ export default function PromptCard({
           className="text-white hover:text-orange-400 transition"
           aria-label="Like prompt"
         >
-          ❤️ {likes.toLocaleString()}
+          {liked ? '❤️' : '🤍'} {likes.toLocaleString()}
         </button>
       </div>
     </div>
